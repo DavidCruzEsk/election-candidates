@@ -1,8 +1,11 @@
 import React from 'react'
+import './navbar.css';
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav className='navbar-container'>
+      <img src="./src/assets/image.png" alt="flag-image" />
+    </nav>
   )
 }
 

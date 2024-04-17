@@ -1,11 +1,17 @@
+import React from 'react';
+import './index.css';
+
+import Navbar from './components/Navbar.jsx';
+import List from './components/List.jsx';
 
 function App() {
 
   return (
-    <>
-        <h2>ELECTIONS CANDIDATE</h2>
-    </>
-  )
+    <div className="app-container">
+      <Navbar />
+      <List />
+    </div>
+  );
 }
 
-export default App
+export default App;

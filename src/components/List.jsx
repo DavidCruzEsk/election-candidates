@@ -1,4 +1,6 @@
 import React from 'react'
+import Card from './Card.jsx';
+import './list.css';
 
 const List = () => {
     const candidateNames = [
@@ -13,7 +15,14 @@ const List = () => {
     ];
 
   return (
-    <div>List</div>
+    <>
+      <p>Person</p>
+      <div className='voter-list'>
+          {candidateNames.map(person => {
+            return <Card name={person} />
+          })}
+      </div>
+    </>
   )
 }
 

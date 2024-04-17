@@ -1,0 +1,5 @@
+.navbar-container {
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+}
