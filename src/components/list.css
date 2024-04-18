@@ -1,16 +1,15 @@
-p {
-    font-size: 30px;
+.list-container {
+    font-size: 50px;
     padding: 5px 30px;
+    margin-left: 57px;
+    margin-top: 25px;
 }
 
 .voter-list {
-    box-sizing: border-box;
-    /* display: grid;
-    grid-template-columns: repeat(6) 1fr;
-    grid-template-columns: repeat(6) 1fr;
-    gap: 30px; */
-    margin: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 60px;
+    justify-items: center;
 }

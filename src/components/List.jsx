@@ -16,10 +16,10 @@ const List = () => {
 
   return (
     <>
-      <p>Person</p>
+      <p className='list-container'>Person</p>
       <div className='voter-list'>
           {candidateNames.map(person => {
-            return <Card name={person} />
+            return <Card key={person} name={person} />
           })}
       </div>
     </>
